@@ -1,13 +1,20 @@
-..page-header {
+.page-header {
 
 }
 
 .page-header__top {
+  display: flex;
+
+  background-color: #951555;
 
 }
 
 .page-header__logo-link {
-
+  padding: 0;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  margin-left: 252px;
 }
 
 .page-header__logo-img {
@@ -15,21 +22,72 @@
 }
 
 .page-header__address {
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 23px;
 
+  margin-left: 576px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #e5e5e5;
+
+}
+
+.page-header__building {
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 23px;
+
+  margin-left: 576px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #e5e5e5;
 }
 
 .page-header__order {
+  position: relative;
 
-}
+  padding: 0;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  margin-left: 172px;
 
-.page-header__call_button {
+  color: #e5e5e5;
 
+  &::before {
+    content: "";
+    position: absolute;
+    right: 120px;
+    top: 20px;
+
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/call-button.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 }
 
 .page-header__phone {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
 
 }
 
 .page-header__order-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
 }
