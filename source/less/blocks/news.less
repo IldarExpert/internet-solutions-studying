@@ -35,12 +35,16 @@
 
   width: 372px;
   height: 536px;
-  //background-color: green;
 }
 
 .news__img-link {
   .reset;
+
   display: block;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .news__img-photo {
@@ -49,6 +53,7 @@
 
 .news__date {
   .reset;
+
   margin-top: 28px;
 
   font-family: "Open-sans", sans-serif;
@@ -73,6 +78,10 @@
   overflow: hidden;
 
   color: #000000;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .news__link {
@@ -105,6 +114,10 @@
     background-image: url("../img/narrow-right.svg");
     background-repeat: no-repeat;
   }
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .news__narrow {
@@ -132,4 +145,14 @@
   background-color: #7d0024;
   color: #ffffff;
   border: none;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (max-width: 1220px) {
+  .news__list {
+    justify-content: space-around;
+  }
 }
