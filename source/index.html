@@ -2,83 +2,114 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Рекламное агенство "Интернет решения"</title>
+  <title>Ресторан Акварель</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <meta name="format-detection" content="telephone=no">
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<header class="page-header">
+  <h1 class="visually-hidden">Ресторан итальянской кухни "Акварель"</h1>
+  <div class="page-header__top contaner">
+      <a href="#" class="page-header__logo-link">
+        <span class="visually-hidden">Ссылка на логотип ресторана итальянской кухни "Акварель"</span>
+        <img src="img/logo.png" class="page-header__logo-img"  width="153" height="50" alt="Логотип ресторана Акварель">
+      </a>
+      <div class="page-header__links">
+        <div class="page-header__phone-order">
+          <a class="page-header__phone" href="">+7 (900) 000-00-00</a>
+          <a class="page-header__order-call" href="">Обратный звонок</a>
+        </div>
+        <a class="page-header__order" href="">Забронировать столик</a>
+        <a class="page-header__departments" href="">К подразделениям Отдых Group</a>
+      </div>
+  </div>
+  <div class="main-nav__wrapper">
+    <nav class="main-nav contaner">
+      <ul class="main-nav__list">
+      <li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="javascript:void(0);">меню</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="">Банкеты</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="">Доставка</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="">Акции</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="">Контакты</a></li>
+    </ul>
+    </nav>
+  </div>
+</header>
 <main class="page-main">
   <h1 class="visually-hidden">Рекламное агенство "Интернет решения"</h1>
-  <div class="news__wrapper">
-    <div class="news contaner">
-      <h2 class="news__header">Новости</h2>
-      <ul class="news__list">
-        <li class="news__item">
-          <a class="news__img-link" href=""><img class="news__img-photo" src="img/news1.jpg" alt="Ссылка на новость" width="372" height="287"></a>
-          <b class="news__date">22.05.2020</b>
-          <a class="news__text" href="">Уникальное производство мангалов в виде животных!</a>
-          <a class="news__link" href="">подробнее</a>
-        </li>
-        <li class="news__item">
-          <a class="news__img-link" href=""><img class="news__img-photo" src="img/news2.jpg" alt="Ссылка на новость" width="371" height="287"></a>
-          <b class="news__date">22.05.2020</b>
-          <a class="news__text" href="">Инсталляция "Звезда" в парке Победы в честь 75-ти летия Великой Победы!</a>
-          <a class="news__link" href="">подробнее</a>
-        </li>
-        <li class="news__item">
-          <a class="news__img-link" href=""><img class="news__img-photo" src="img/news3.jpg" alt="Ссылка на новость" width="372" height="287"></a>
-          <b class="news__date">22.05.2020</b>
-          <a class="news__text" href="">Наши высокотехнологичные рекламные конструкции на выставке «Реклама-2018»</a>
-          <a class="news__link" href="">подробнее<span class="news__narrow">&#8594;</span></a>
-        </li>
-      </ul>
-      <div class="news__button-wrapper"><a class="news__view-all" href="">Смотреть все</a></div>
+  <div class="main-banner">
+    <h2 class="visually-hidden">Ресторан итальянской кухни "Акварель"</h2>
+    <div class="main-banner__banner contaner">
+      <div class="main-banner__buttons-next-prev">
+        <button type="button" class="main-banner__button-prev">
+          <svg class="main-banner__button-prev-img" width="54" height="52" viewBox="0 0 54 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.5" x="-0.75" y="0.75" width="52.5" height="50.5" rx="25.25" transform="matrix(-1 0 0 1 52.5 0)" stroke="white" stroke-width="1.5"/>
+            <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M23.1212 26.0001L32.5909 16.5304L31.5302 15.4697L20.9999 26.0001L31.5302 36.5304L32.5909 35.4697L23.1212 26.0001Z" fill="white"/>
+          </svg>
+        </button>
+        <button type="button" class="main-banner__button-next">
+          <svg class="main-banner__button-next-img" width="54" height="52" viewBox="0 0 54 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.75" y="0.75" width="52.5" height="50.5" rx="25.25" stroke="white" stroke-width="1.5"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8786 26.0001L21.4089 16.5304L22.4695 15.4697L32.9999 26.0001L22.4695 36.5304L21.4089 35.4697L30.8786 26.0001Z" fill="white"/>
+          </svg>
+        </button>
+      </div>
+      <div class="main-banner__buttons">
+        <button type="button" class="main-banner__button1"></button>
+        <button type="button" class="main-banner__button2"></button>
+        <button type="button" class="main-banner__button3"></button>
+      </div>
     </div>
   </div>
-  <div class="services__wrapper">
-    <div class="services contaner">
-      <h2 class="services__header">Услуги</h2>
-      <ul class="services__list">
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_print.png" alt="Широкоформатная и УФ печать на любых материалах" width="233" height="190">
-          </a>
-          <a class="services__text" href="">Широкоформатная и УФ печать на любых материалах</a>
-        </li>
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_bunner.png" alt="Размещение наружной рекламы на собственных конструкциях" width="287" height="205">
-          </a>
-          <a class="services__text" href="">Размещение наружной рекламы на собственных конструкциях</a>
-        </li>
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_design.png" alt="Изготовление вывесок и оформление точек продаж" width="271" height="198">
-          </a>
-          <a class="services__text" href="">Изготовление вывесок и оформление точек продаж</a>
-        </li>
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_metall.png" alt="Широкоформатная и УФ печать на любых материалах" width="294" height="226">
-          </a>
-          <a class="services__text" href="">Изготовление металлоконструкций, лазерная резка, гибка металла</a>
-        </li>
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_constructions.png" alt="Размещение наружной рекламы на собственных конструкциях" width="280" height="206">
-          </a>
-          <a class="services__text" href="">Производство рекламных конструкций и МАФ</a>
-        </li>
-        <li class="services__item">
-          <a class="services__img-link" href="">
-            <img class="services__img-photo" src="img/service_unic.png" alt="Изготовление вывесок и оформление точек продаж" width="259" height="195">
-          </a>
-          <a class="services__text" href="">Уникальное производство</a>
-        </li>
-      </ul>
+  <div class="contacts">
+    <div class="contacts__map"></div>
+    <div class="contacts__information">
+      <div class="contacts__block1">
+        <h2 class="contacts__header">Ждем вас в гости!</h2>
+        <p class="contacts__address"><span></span></p>
+        <p class="contacts__phone"><span></span></p>
+        <p class="contacts__time"><span></span></p>
+        <a class="contacts__call"></a>
+      </div>
+      <div class="contacts__block2">
+        <p class="contacts__taxi-text"></p>
+        <button type="button" class="contacts__taxi-button"></button>
+      </div>
     </div>
   </div>
+  <div class="scroller"></div>
 </main>
+<footer class="page-footer">
+  <div class="footer-top">
+    <div class="footer-top__wrapper contaner">
+      <div class="footer-top__subscribe">
+        <label for="footer-top__input" class="footer-top__text">Подпишитесь на рассылку Отдых GROUP и получайте подборки новостей и событий холдинга прямо на почту
+        </label>
+        <input type="email" id="footer-top__input" class="footer-top__input">
+      </div>
+      <div class="footer-top__social">
+        <ul class="footer-top__social-list">
+          <li class="social social-vk"><a href="#"><img src="img/vk.svg" alt="vk"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li class="social social-inst"><a href="#"><img src="img/inst.svg" alt="instagram"><span class="visually-hidden">Интаграмм</span></a></li>
+          <li class="social social-fb"><a href="#"><img src="img/fb.svg" alt="facebook"><span class="visually-hidden">Фэйсбук</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <a class="footer-bottom__logo" href="">
+      <span class="visually-hidden">Ссылка на логотип агенства performance макретинга "Интернет решения"</span>
+    </a>
+    <p class="footer-bottom__copyright">
+      © 2020 ОТДЫХ GROUP | Все права защищены
+    </p>
+    <p class="footer-bottom__politics-text">Отправляя любую форму на сайте, вы соглашаетесь с
+      <a class="footer-bottom__politics-link" href="">политикой конфиденциальности</a> данного сайта.
+    </p>
+  </div>
+</footer>
 </body>
 </html>
