@@ -63,20 +63,34 @@
         <button type="button" class="main-banner__button3"></button>
       </div>
     </div>
+    <div class="slider contaner">
+      <div class="slider__item">
+        <img src="img/banner1.jpg" width="1439" height="539" alt="">
+      </div>
+      <div class="slider__item">
+        <img src="img/banner2.jpg" width="1439" height="539" alt="">
+      </div>
+      <div class="slider__item">
+        <img src="img/banner3.jpg" width="1439" height="539" alt="">
+      </div>
+
+    </div>
   </div>
   <div class="contacts">
-    <div class="contacts__map"></div>
+    <div class="contacts__map">
+      <iframe src="https://yandex.ru/map-widget/v1/-/CCUQE0Cr3A" width="950" height="550"  style="position:relative;"></iframe>
+    </div>
     <div class="contacts__information">
       <div class="contacts__block1">
         <h2 class="contacts__header">Ждем вас в гости!</h2>
-        <p class="contacts__address"><span></span></p>
-        <p class="contacts__phone"><span></span></p>
-        <p class="contacts__time"><span></span></p>
-        <a class="contacts__call"></a>
+        <p class="contacts__address"><b class="contacts__address-bold">Адрес: </b>Проспект октября 111/11 офис 111</p>
+        <p class="contacts__phone"><b class="contacts__phone-bold">Номер телефона: </b>+7 (800) 000-00-00</p>
+        <p class="contacts__time"><b class="contacts__time-bold">Время работы: </b>12.00-24.00</p>
+        <a class="contacts__call" href="">Связаться</a>
       </div>
       <div class="contacts__block2">
-        <p class="contacts__taxi-text"></p>
-        <button type="button" class="contacts__taxi-button"></button>
+        <p class="contacts__taxi-text">Мы можем заказать Вам такси прямо до ресторана</p>
+        <button type="button" class="contacts__taxi-button">Отлично, я еду!</button>
       </div>
     </div>
   </div>
@@ -88,28 +102,66 @@
       <div class="footer-top__subscribe">
         <label for="footer-top__input" class="footer-top__text">Подпишитесь на рассылку Отдых GROUP и получайте подборки новостей и событий холдинга прямо на почту
         </label>
-        <input type="email" id="footer-top__input" class="footer-top__input">
+        <div class="footer-top__input-wrapper">
+          <input type="email" id="footer-top__input" placeholder="Введите ваш e-mail" class="footer-top__input">
+          <button type="button" class="footer-top__button">Подписаться</button>
+        </div>
       </div>
       <div class="footer-top__social">
         <ul class="footer-top__social-list">
-          <li class="social social-vk"><a href="#"><img src="img/vk.svg" alt="vk"><span class="visually-hidden">Вконтакте</span></a></li>
-          <li class="social social-inst"><a href="#"><img src="img/inst.svg" alt="instagram"><span class="visually-hidden">Интаграмм</span></a></li>
-          <li class="social social-fb"><a href="#"><img src="img/fb.svg" alt="facebook"><span class="visually-hidden">Фэйсбук</span></a></li>
+          <li class="footer-top__social-item footer-top__vk">
+            <a href="#">
+              <span class="visually-hidden">Вконтакте</span>
+              <svg class="footer-top__vk" width="29" height="15" viewBox="0 0 29 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.8" d="M13.6003 0.00318104C12.0996 -0.0102673 10.8259 0.004772 10.1063 0.337137C9.62785 0.558074 9.25844 1.04753 9.48333 1.07634C9.76139 1.11092 10.392 1.23895 10.7252 1.66546C11.1566 2.21684 11.1405 3.45156 11.1405 3.45156C11.1405 3.45156 11.3875 6.86185 10.5615 7.28643C9.99516 7.57653 9.21701 6.98411 7.54666 4.27332C6.69002 2.8843 6.04524 1.34651 6.04524 1.34651C6.04524 1.34651 5.92068 1.06118 5.69783 0.907489C5.42796 0.721134 5.05095 0.659834 5.05095 0.659834L1.04982 0.686103C1.04982 0.686103 0.449983 0.702853 0.231223 0.948765C0.0349517 1.16778 0.21525 1.61668 0.21525 1.61668C0.21525 1.61668 3.34664 8.49782 6.89179 11.9656C10.1466 15.1432 13.8359 14.9374 13.8359 14.9374H15.509C15.509 14.9374 16.0141 14.8835 16.2717 14.6222C16.5088 14.3821 16.4993 13.9318 16.4993 13.9318C16.4993 13.9318 16.4689 11.8246 17.5096 11.5153C18.5359 11.2098 19.8527 13.5523 21.2511 14.4534C22.3081 15.1354 23.1119 14.9862 23.1119 14.9862L26.8495 14.9374C26.8495 14.9374 28.8019 14.8212 27.8758 13.3764C27.8001 13.2592 27.3392 12.3077 25.1005 10.3558C22.7575 8.31168 23.0677 8.64507 25.8912 5.11008C27.6106 2.95643 28.2981 1.63925 28.0834 1.07634C27.8789 0.540333 26.6139 0.68235 26.6139 0.68235L22.4051 0.708617C22.4051 0.708617 22.0931 0.668031 21.8621 0.798672C21.6351 0.92547 21.4907 1.22268 21.4907 1.22268C21.4907 1.22268 20.8247 2.88925 19.9374 4.30709C18.0646 7.29645 17.3131 7.45585 17.0064 7.27142C16.2929 6.83915 16.4713 5.52953 16.4713 4.60352C16.4713 1.70637 16.9429 0.500198 15.5649 0.187045C15.1069 0.0833005 14.7718 0.0147082 13.6003 0.00318104Z" fill="white"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-top__social-item footer-top__inst">
+            <a href="#">
+              <span class="visually-hidden">Интаграмм</span>
+              <svg class="footer-top__inst" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.8">
+                  <path d="M4.18784 27.6501H23.7271C25.9593 27.6501 27.7753 25.8331 27.7753 23.5998V4.0503C27.7753 1.81694 25.9593 0 23.7271 0H4.18784C1.95564 0 0.139648 1.81694 0.139648 4.0503V23.5998C0.139648 25.8331 1.95564 27.6501 4.18784 27.6501ZM1.75893 4.0503C1.75893 2.71033 2.84856 1.62012 4.18784 1.62012H23.7271C25.0664 1.62012 26.156 2.71033 26.156 4.0503V23.5998C26.156 24.9397 25.0664 26.0299 23.7271 26.0299H4.18784C2.84856 26.0299 1.75893 24.9397 1.75893 23.5998V4.0503Z" fill="white"/>
+                  <path d="M13.9579 21.1155C17.9757 21.1155 21.2446 17.8449 21.2446 13.825C21.2446 9.80504 17.9757 6.53442 13.9579 6.53442C9.94006 6.53442 6.67114 9.80504 6.67114 13.825C6.67114 17.8449 9.94006 21.1155 13.9579 21.1155ZM13.9579 8.15454C17.083 8.15454 19.6254 10.6982 19.6254 13.825C19.6254 16.9517 17.083 19.4954 13.9579 19.4954C10.8328 19.4954 8.29042 16.9517 8.29042 13.825C8.29042 10.6982 10.8328 8.15454 13.9579 8.15454Z" fill="white"/>
+                  <path d="M22.0542 8.15455C23.3934 8.15455 24.4831 7.06434 24.4831 5.72437C24.4831 4.3844 23.3934 3.29419 22.0542 3.29419C20.7149 3.29419 19.6252 4.3844 19.6252 5.72437C19.6252 7.06434 20.7149 8.15455 22.0542 8.15455ZM22.0542 4.91431C22.5005 4.91431 22.8638 5.27778 22.8638 5.72437C22.8638 6.17096 22.5005 6.53443 22.0542 6.53443C21.6078 6.53443 21.2445 6.17096 21.2445 5.72437C21.2445 5.27778 21.6078 4.91431 22.0542 4.91431Z" fill="white"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-top__social-item footer-top__fb">
+            <a href="#">
+              <span class="visually-hidden">Фэйсбук</span>
+              <svg class="footer-top__fb" width="14" height="29" viewBox="0 0 14 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.8" d="M8.70483 9.71006V7.32764C8.70483 6.96999 8.72128 6.69297 8.7547 6.49728C8.788 6.3013 8.86377 6.10855 8.98136 5.91826C9.09877 5.7281 9.28889 5.59681 9.55144 5.52406C9.81434 5.45119 10.1637 5.41487 10.5999 5.41487H12.9809V0.650146H9.17436C6.97179 0.650146 5.38988 1.17299 4.42838 2.21866C3.46701 3.26458 2.98638 4.80518 2.98638 6.84106V9.71001H0.135254V14.4751H2.9862V28.3001H8.70477V14.4751H12.5111L13.0142 9.71006H8.70483Z" fill="white"/>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="footer-bottom">
-    <a class="footer-bottom__logo" href="">
-      <span class="visually-hidden">Ссылка на логотип агенства performance макретинга "Интернет решения"</span>
+  <div class="footer-bottom__wrapper">
+    <div class="footer-bottom contaner">
+      <div class="footer-bottom__cal">
+        <a class="footer-bottom__logo" href="">
+      <span class="visually-hidden">Ссылка на агенство Интернет решения</span>
+      <img src="img/footer-bottom-logo.svg" class="footer-bottom__logo-img"  width="285" height="59" alt="логотип агенства performance макретинга Интернет решения">
     </a>
-    <p class="footer-bottom__copyright">
-      © 2020 ОТДЫХ GROUP | Все права защищены
-    </p>
-    <p class="footer-bottom__politics-text">Отправляя любую форму на сайте, вы соглашаетесь с
-      <a class="footer-bottom__politics-link" href="">политикой конфиденциальности</a> данного сайта.
-    </p>
+      </div>
+      <div class="footer-bottom__cal">
+        <p class="footer-bottom__copyright">© 2020 ОТДЫХ GROUP | Все права защищены</p>
+      </div>
+      <div class="footer-bottom__cal footer-bottom__cal-right">
+        <p class="footer-bottom__politics-text">Отправляя любую форму на сайте, вы соглашаетесь с
+        <a class="footer-bottom__politics-link" href="">политикой конфиденциальности</a> данного сайта.
+      </p>
+      </div>
+    </div>
   </div>
 </footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
