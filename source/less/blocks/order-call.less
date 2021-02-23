@@ -1,0 +1,188 @@
+.order-call {
+  width: 476px;
+  height: 604px;
+
+  background-color: #ffffff;
+}
+
+.order-call__wrapper {
+  margin: 0 auto;
+
+  padding: 30px 54px;
+}
+
+.order-call__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 544px;
+}
+
+.order-call__header {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+
+  text-align: center;
+}
+
+.order-call__name-wrapper {
+  height: 59px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  background-color: red;
+}
+
+.order-call__name-label {
+
+}
+
+.order-call__name {
+
+}
+
+.order-call__phone-wrapper {
+  height: 59px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  background-color: blue;
+}
+
+.order-call__phone-label {
+
+}
+
+.order-call__phone {
+
+}
+
+.order-call__text-wrapper {
+  height: 152px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  background-color: green;
+}
+
+.order-call__text-label {
+
+}
+
+.order-call__text {
+
+}
+
+.order-call__agreement-wrapper {
+  min-height: 50px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  background-color: orange;
+}
+
+.order-call__agreement-label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.order-call__checkbox-visible {
+
+}
+
+.order-call__politics {
+  text-decoration: underline;
+  color: #f8b500;
+}
+
+.order-call__submit {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-show
+{
+  display: block;
+  animation-name: bounce;
+  animation-duration: 1.0s;
+}
+
+@keyframes bounce
+{
+  0% {transform: translateY(-2000px);}
+  60% {transform: translateY(30px);}
+  90% {transform: translateY(-10px);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes shake {
+  0%, 100% {transform: translateX(0)}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px)}
+  20%, 40%, 60%, 80% {transform: translateX(10px)}
+
+}
+
+.modal-error
+{
+  animation-name: shake;
+  animation-duration: 0.6s;
+}
+
+
+.modax-close
+{
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  border: 0;
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  right: -34px;
+  background-color: transparent;
+}
+
+.modax-close::before,
+.modax-close::after
+{
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 3px;
+  background-color: #d0d0d0;
+  top: 10px;
+  left: 2px;
+}
+
+.modax-close::before
+{
+  transform: rotate(45deg);
+}
+
+.modax-close::after
+{
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,38 @@
+.modal {
+  position: relative;
+}
+
+.modal__close {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  border: 0;
+  font-size: 0;
+
+  position: absolute;
+  top: 0;
+  right: 34px;
+  background-color: transparent;
+}
+
+.modax-close::before,
+.modax-close::after
+{
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 3px;
+  background-color: #d0d0d0;
+  top: 10px;
+  left: 2px;
+}
+
+.modax-close::before
+{
+  transform: rotate(45deg);
+}
+
+.modax-close::after
+{
+  transform: rotate(-45deg);
+}

@@ -1,6 +1,6 @@
 $(function() {
   $(window).scroll(function() {
-    if($(this).scrollTop() > 150) {
+    if($(this).scrollTop() > 50) {
       $('.scroller').fadeIn();
     } else {
       $('.scroller').fadeOut();
